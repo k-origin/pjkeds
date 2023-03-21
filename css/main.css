@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+section.banner{
+  width: 100%;
+}
+
+div.b_slide_box{
+  width:100%;
+  overflow: hidden;
+  
+}
+
+ul.b_slide{
+  width: 400%;
+  display: flex;
+  overflow: hidden;
+}
+
+.b_slide li {
+  width: 100%;
+  position: relative;
+}
+
+.b_slide li img {
+  width: 100%;
+  display: block;
+}
+
+div.b_s_t_box{
+  position: absolute;
+  z-index:1;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+}
+
+p.b_title{
+  font-size:var(--f-size05);
+  color:var(--f-color02);
+  margin: 0 0 60px 0;
+
+}
+
+div.b_s_t_box a {
+  border: 3px solid #fff;
+  color: var(--f-color02);
+  font-size: 25px;
+  text-align: center;
+  line-height: 25px;
+  padding: 10px 10px;
+}
+
+/* section 2 col_ban */
+section.col_ban{
+  display:flex;
+}
+
+.col_ban div {
+  width: 50%;
+  position: relative;
+}
+
+.col_ban div a img{
+  width:100%;
+  display: block;
+}
+
+div.c_b_t_box{
+  position: absolute;
+  z-index:1;
+  bottom: 10%;
+  left: 50px;
+}
+
+p.c_b_title{
+  font-size:var(--f-size04);
+  color:var(--f-color02);
+  margin: 30px 0;
+
+}
+
+div.c_b_t_box a {
+  border: 3px solid #fff;
+  color: var(--f-color02);
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  padding: 10px 10px;
+}
+
+/* section3 NEW arrival */
+section.new_arr h2{
+  text-align: center;
+  font-size: var(--f-size04);
+  color: var(--main-color);
+  font-weight: 900;
+  margin: 50px 0;
+}
+
+ul.new_a_ul{
+  width: 600px;
+  margin: 50px auto;
+  display:flex;
+  justify-content:space-around;
+  text-transform: uppercase;
+}
+
+.new_arr ul li a{
+  color: var(--f-color03);
+}
+
+.new_arr article{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.product_box{
+  width:330px;
+  margin: 50px 0;
+}
+
+div.product_box a img{
+  width: 330px;
+  display: block;
+}
+
+div.p_title_box{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  align-items: center;
+}
+
+div.p_title_box i{
+  font-size:30px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+/* section4 프로케즈 */
+
+section.prokeds {
+  width: 100%;
+  position: relative;
+  margin: 50px 0;
+}
+
+section.prokeds img[alt="프로케즈"]{
+  display: block;
+  width: 100%;
+  
+}
+
+section.prokeds a img[alt="프로케즈로고"]{
+  display: block;
+  width: 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)  
+}
+
+section.prokeds a:hover img[alt="프로케즈로고"]{
+  filter: brightness(50%);
+}
+
+
+/* section5 이벤트 */
+section.event h2{
+  text-align: center;
+  font-size: var(--f-size04);
+  color: var(--main-color);
+  font-weight: 900;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
+
+div.e_slide_box {
+  width:700px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+ul.e_slide{
+  width:2100px;
+  display:flex;
+}
+
+ul.e_slide li{
+  width:700px;
+}
+
+ul.e_slide li img{
+  display: block;
+  width:100%;
+}
+
+
+
